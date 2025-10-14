@@ -1,89 +1,76 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mi Primera Web</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #74b9ff, #81ecec);
+      margin: 0;
+      padding: 0;
+      color: #2d3436;
+      text-align: center;
+    }
 
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Projectes SMX2C 2025-2026</title>
+    header {
+      background-color: #0984e3;
+      color: white;
+      padding: 1em 0;
+      font-size: 1.5em;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    }
 
-    <!-- Include Bootstrap HTML, CSS and JS library -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    main {
+      padding: 2em;
+    }
 
-  </head>
+    button {
+      background-color: #00cec9;
+      border: none;
+      padding: 0.8em 1.5em;
+      color: white;
+      font-size: 1em;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
 
-  <body>
-    <br>
-    <div class="container">
-      <h5><span class="badge text-bg-primary">SMX2C</span> <span class="badge text-bg-secondary">2025-2026</span></h5>
-      <h1>Projecte Intermodular</h1>
-      <br>
-      <h3>Taula de projectes</h3>
-      <table class="table">
-        <thead>
-          <tr>
-            <th scope="col"></th>
-            <th scope="col"></th>
-            <th scope="col" class="text-secondary">Github</th>
-            <th scope="col"></th>
-            <th scope="col" class="text-primary">Projecte</th>
-          </tr>
-          <tr>
-            <th scope="col">Nom</th>
-            <th scope="col">Cognoms</th>
-            <th scope="col" class="text-secondary"><i>Dashboard</i></th>
-            <th scope="col" class="text-secondary"><i>Presentació</i></th>
-            <th scope="col" class="text-primary"><i>Web</i></th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Miquel</td>
-            <td>Calzada Espert</td>
-            <td><a class="link-secondary link-offset-2 link-underline-opacity-50 link-underline-opacity-100-hover" href="https://github.com/MiquelCalzada">MiquelCalzada</a></td>
-            <td><a class="link-primary link-offset-2 link-underline-opacity-50 link-underline-opacity-100-hover" href="https://MiquelCalzada.github.io">MiquelCalzada.github.io</a></td>
-            <td><a class="link-primary link-offset-2 link-underline-opacity-50 link-underline-opacity-100-hover"></a></td>
-          </tr>
-	  <tr>
-	    <td>Francesc</td>
-            <td>Rocher Muñoz</td>
-            <td><a class="link-secondary link-offset-2 link-underline-opacity-50 link-underline-opacity-100-hover" href="https://github.com/rocher">rocher</a></td>
-            <td><a class="link-primary link-offset-2 link-underline-opacity-50 link-underline-opacity-100-hover" href="https://rocher.github.io">rocher.github.io</a></td>
-            <td><a class="link-primary link-offset-2 link-underline-opacity-50 link-underline-opacity-100-hover" href="http://lafusta.endinahosting.com">La FUSTA</a></td>
-    </tr>
-    <tr>
-            <td>Guillem</td>
-            <td>Tarradas Surroca</td>
-            <td><a class="link-secondary link-offset-2 link-underline-opacity-50 link-underline-opacity-100-hover" href="https://github.com/gutasu">gutasu</a></td>
-            <td><a class="link-primary link-offset-2 link-underline-opacity-50 link-underline-opacity-100-hover" href="https://rocher.github.io">gutasu.github.io</a></td>
-            <td><a class="link-primary link-offset-2 link-underline-opacity-50 link-underline-opacity-100-hover"></a></td>
-          </tr>
-          <tr>
-            <td>Aran</td>
-            <td>Perea Wolter</td>
-            <td><a class="link-secondary link-offset-2 link-underline-opacity-50 link-underline-opacity-100-hover" href="https://github.com/AranPW">Aran</a></td>
-            <td><a class="link-primary link-offset-2 link-underline-opacity-50 link-underline-opacity-100-hover" href="https://AranPW.github.io">AranPW.github.io</a></td>
-            <td><a class="link-primary link-offset-2 link-underline-opacity-50 link-underline-opacity-100-hover" href="http://"></a></td>
-          </tr>
-	  <tr>
-	    <td>Josep</td>
-	    <td>Fernandez Montoya</td>
-	    <td><a class="link-secondary link-offset-2 link-underline-opacity-50 link-underline-opacity-100-hover" href="https://github.com/tutevinho">tutevinho</a></td>
-            <td><a class="link-primary link-offset-2 link-underline-opacity-50 link-underline-opacity-100-hover" href="https://tutevinho.github.io">tutevinho.github.io</a></td>
-            <td><a class="link-primary link-offset-2 link-underline-opacity-50 link-underline-opacity-100-hover" href=""></a></td>
-    </tr>
-      <tr>
-            <td>Aleix</td>
-            <td>Marina Ruiz</td>
-            <td><a class="link-secondary link-offset-2 link-underline-opacity-50 link-underline-opacity-100-hover" href="https://github.com/Almaru1">Almaru1</a></td>
-            <td><a class="link-primary link-offset-2 link-underline-opacity-50 link-underline-opacity-100-hover" href="https://Almaru1.github.io">Almaru1.github.io</a></td>
-            <td><a class="link-primary link-offset-2 link-underline-opacity-50 link-underline-opacity-100-hover" href="http://.endinahosting.com"></a></td>
-     </tr>
-        </tbody>
-      </table>
-    </div>
+    button:hover {
+      background-color: #009999;
+    }
 
-    <!-- Include Bootstrap HTML, CSS and JS library -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    footer {
+      margin-top: 3em;
+      background-color: #dfe6e9;
+      padding: 1em 0;
+      font-size: 0.9em;
+      color: #636e72;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    🌐 Bienvenido a Mi Web de Prueba
+  </header>
 
-  </body>
+  <main>
+    <h1>Hola Mundo 👋</h1>
+    <p>Esta es una página web de ejemplo creada con HTML, CSS y un poco de estilo.</p>
+    <button onclick="saludar()">Haz clic aquí</button>
+
+    <script>
+      function saludar() {
+        alert('¡Hola! Gracias por visitar mi web 😊');
+      }
+    </script>
+  </main>
+
+  <footer>
+    © 2025 - Hecha con ❤️ por Practicant
+  </footer>
+</body>
 </html>
+
+
